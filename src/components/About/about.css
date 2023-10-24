@@ -51,11 +51,15 @@
     font-weight: 200;
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:850px) {
     .aboutBarText>p {
         font-weight: 2vw;
     } 
+    #about{
+        margin-top: -50px;
+    }
 }
+
 
 @media screen and (max-width:480px) {
     .aboutBarText>p {
@@ -67,5 +71,9 @@
     }
     .aboutBarText>h2{
         font-size: 5vw;
+    }
+
+    #about{
+        margin-top: -50px;
     }
 }
